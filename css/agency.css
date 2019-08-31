@@ -244,7 +244,7 @@ p {
 
 .btn-primary {
   background-color: #e6a756;
-  border-color: #e6a756;
+  border-color: #FFA500;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -862,12 +862,7 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
-section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 
 section#contact .section-heading {
   color: #fff;
