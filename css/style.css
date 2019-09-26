@@ -1,0 +1,13 @@
+/* Show desktop or mobile based on screen */
+#content-desktop {
+  display: block;
+}
+#content-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}

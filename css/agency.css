@@ -770,5 +770,23 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #FFA500;
 }
 
+iframe {
+  height: 2212px;
+  width: 710px;
+}
 
+@media only screen and (max-device-width: 480px) {
+  iframe {
+   display:none;
+  }
+}
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
