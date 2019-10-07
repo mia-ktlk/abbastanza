@@ -1,3 +1,27 @@
+.event-date {
+  padding-bottom: 1rem;
+  color: black;
+  font-style: italic;
+}
+
+.team-text {
+  color: #FCB024;
+}
+
+.section-heading, .event-heading, .team-heading {
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.p {  
+  font-family: 'PT Serif Caption', serif;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* Show desktop or mobile based on screen */
 #content-desktop {
   display: block;
